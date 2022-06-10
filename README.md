@@ -1,31 +1,3 @@
-# COP 3530 - Data Structures and Algorithms I
-[![Points badge](../../blob/badges/.github/badges/points.svg)](../../actions)
-
-# Project 3 - FileSystem Simulator
-
-## Objective:
-This project is meant to provide you with hands-on experience on implementation of trees.
-In particular, you will be implementing a file system simulator.
-Files and directories will be represented by nodes forming a tree.
-
-## Learning Outcomes:
-
-Develop a program that uses:
-
-- Trees
-
-## Preparation:
-
-To complete this project, you need to make sure that you have read the following:
-
-- Chapter 3 - Strings
-- Chapter 4 - Array and Vector Basics
-- Chapter 7 - Objects and Classes Basics
-- Chapter 9 - Modular Design and Makefiles
-- Chapter 10 - Memory Management
-- Chapter 12 - Recursion
-- Chapter 17 - Trees
-
 ## Problem Description:
 
 This project implements a simulator for a Linux file system.
@@ -126,38 +98,3 @@ The responsibility of this class is to interact with the user.
 It takes in commands and user input and calls the corresponding methods on the **FileSystem** to get the results.
 
 
-## Additional Requirements:
-
-Your application must function as described below:
-
-1. Your program must adhere to the class diagrams provided in this description.
-2. You must use the data structures listed in this description for building your file system.
-Inappropriate use of other data structures or using data structures ways not discussed in this description can result in a large deduction of points.
-3. **You must implement the removal recursively.**
-4. Your program must adhere to using the given interface as specified.
-
-## Important Notes:
-
-- Projects will be graded on whether they correctly solve the problem, and whether they adhere to good programming practices.
-- Projects must be received by the time specified on the due date. Projects received after that time will get a grade of zero.
-- Do not change the test files! The results you get will be pointless as they will not align with our grading.
-- Please review the academic honesty policy.
-  - Note that viewing another student's solution, whether in whole or in part, is considered academic dishonesty.
-  - Also note that submitting code obtained through the Internet or other sources, whether in whole or in part, is considered academic dishonesty. **All programs submitted will be reviewed for evidence of academic dishonesty, and all violations will be handled accordingly**.
-
-[![Walk-through of getting started](https://res.cloudinary.com/dm3fdmzec/image/upload/v1605642809/Cursor_and_Filesystem_Project_-_YouTube_c4qpk1.png)](https://www.youtube.com/watch?v=TOW2Lgw9m0k)
-
-## Breakdown of Grades:
-
-You will find a rubric for the project in Canvas.
-
-## Submission Instructions:
-
-1. All code must be added and committed to your local git repository.
-2. All code must be pushed to the GitHub repository created when you "accepted" the assignment.
-   1. After pushing, with `git push origin main`, visit the web URL of your repository to verify that your code is there.
-      If you don't see the code there, then we can't see it either.
-3. Your code must compile and run in the auto-grader or it might not be graded.
-   1. The build should begin automatically when you push your code to GitHub.
-   2. If your program will not compile, the graders will not be responsible for trying to test it.
-   3. You should get an email regarding the status of your build, if it does not pass, keep trying.
