@@ -1,0 +1,9 @@
+ls
+touch foo
+mkdir bar
+touch foo
+cd bar
+touch baz
+cd ..
+ls
+exit
